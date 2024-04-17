@@ -35,6 +35,6 @@ Para carga inicial na tabela executar os seguintes passos:
 
 Certifique que a tabela remedio esteja devidamente populada no arquivo db.sqlite3
 
-Abra o [http://localhost:5001/#/](http://localhost:5001/#/) no navegador para verificar se a aplicacao esta no ar.
+Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para verificar se a aplicacao esta no ar.
 
 
