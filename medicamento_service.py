@@ -61,7 +61,7 @@ def pesquisa_medicamento(query: PesquisaMedicamento):
     medicamento = session.query(Medicamento).filter(and_(*filters)).all()
 
     if not medicamento:
-        error_msg = "Não foi encontrado nenhum item."
+        error_msg = "Não foi encontrado nenhum medicamento."
         logger.warning(f"Erro ao buscar produto '{id}', {error_msg}")
         return {"mesage": error_msg}, 404
     else :
@@ -103,10 +103,10 @@ def deletar(query: PesquisaMedicamentoId):
     session.commit()
 
     if count:
-        msg = "item foi excluido com sucesso."
+        msg = "Medicamento foi excluido com sucesso."
         return {"mesage": msg}, 200
     else :
-        error_msg = "Não foi encontrado nenhum item."
+        error_msg = "Não foi encontrado nenhum medicamento."
         logger.warning(f"Erro ao buscar produto '{id}', {error_msg}")
         return {"mesage": error_msg}, 404
     

@@ -30,7 +30,7 @@ windows - env/Script/activate
 Após a inicializacao do servidor, o arquivo db.sqlite3 será criado automaticamente com as duas tabelas do sistema.
 
 Para carga inicial na tabela executar os seguintes passos:
-    abrir um novo terminal e ir até a pasta do raiz do projeto app_medicamento_api
+    abrir um novo terminal e ir até a pasta do raiz do projeto.
     executar o comando no terminal - Python script_insert_banco
 
 Certifique que a tabela remedio esteja devidamente populada no arquivo db.sqlite3
