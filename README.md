@@ -5,7 +5,7 @@ objetivo deste aplicativo é cadastrar o medicamento para ter o controle da sua 
 ---
 ## Como executar 
 
-será necessario ter instalado na maquina o Python, recomenda-se a utilizar a versão 3.12.3.
+será necessario ter instalado na maquina o Python, recomenda-se a utilização da 3.12.3.
 
 
 Será necessário ter todas as libs python listadas no `requirements.txt` instaladas.
